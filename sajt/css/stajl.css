@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding:0;
+    
+ }
+ body{
+
+    background-color: #f1f1f1;
+ }
+ .pre-header
+     {
+    background-color: black;
+    height: 60px;
+    color: aliceblue;
+    padding-top: 15px;
+    
+     }
+
+
+.pre-header .secondary-manu {
+    
+list-style: none;
+}
+.pre-header .secondary-manu li a {
+color: #707374;
+text-transform: uppercase;
+font-size: 15pt;
+text-decoration: none;
+margin-left: 5px;
+
+}
+.pre-header .secondary-manu li {
+display: inline;
+
+
+}
+.pre-header .secondary-manu li{
+
+    margin-left: 20px;
+    
+}
+
+.main-nav .main-manu {
+    list-style:none;
+}
+.main-nav .main-manu li {
+    display: inline-block;
+    margin: 16px;
+    font-size: 12pt;
+
+}
+.main-nav .main-manu li a{
+    text-transform: uppercase;
+    color: #767676;
+    text-decoration: none;
+}
+
+.main-nav  img {
+    margin-top: 10px;
+}
+.main-nav .main-manu  .dugme-tst a {
+    background-color: #4f33f1;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4f33f1
+    
+}
+.main-nav .main-manu  .dugme-tst a:hover {
+    color: #4f33f1;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.hero-sectio {
+    background-image: url('../images/hero.jpg');
+    padding-top: 115px;
+    padding-bottom: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hero-sectio h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #5033f199;
+    padding: 15px;
+    
+}
+.hero-sectio p{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #5033f199;
+    padding: 15px;
+}
+.hero-sectio a{
+    background-color: #4f33f1;
+    color: #ffffff;
+    padding: 9px;
+    border: 2px solid #4f33f1;
+    display: inline-block;
+}
+.hero-sectio a:hover{
+    color: #4f33f1;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.hero-sectio li a {
+    font-size: larger;
+    text-decoration: none;
+}
+.service-section{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.service-section .service-header h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.service-section .service-header h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #343434;
+}
+.service-section .service-header p{
+    text-align: center;
+    font-weight: 600;
+    color: #818181;
+    margin-bottom: 50px
+    
+   
+}
+.service-section .opis1{
+    font-size: 13pt;
+    background-color: #727272 ;
+    color: #fff;
+    margin-right: 15px;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+padding-bottom: 40px;
+margin-top: 10px;
+    
+}
+.service-section .opis1:hover{
+    background-color: #7633f1;
+    transition: 0.4s;
+    margin-top: -5px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,1);
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,1);
+
+
+}
+.service-section .opis1 h3{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #04770000;
+    
+}
+.service-section .opis1 li a{
+ text-decoration: none;
+ list-style: none;
+ display: inline-block;
+ color: #fff;
+ border: 2px solid #fff;
+ padding: 5px;
+ padding: 0 auto;
+}
+.how-it-works {
+    text-align: center;
+    background-image: url(../images/works.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    
+
+}
+.how-it-works h3{
+    text-transform: uppercase;
+    font-weight: 700;
+   
+    
+
+}
+.how-it-works h2{
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+.how-it-works a{
+    display: block;
+    position: relative;
+    bottom: -30px;
+}
+    
+
+    
+
+    
